@@ -1,0 +1,51 @@
+Ancient algorithms
+Since antiquity, step-by-step procedures for solving mathematical problems have been attested. This includes Babylonian mathematics (around 2500 BC),[11] Egyptian mathematics (around 1550 BC),[11] Indian mathematics (around 800 BC and later; e.g. Shulba Sutras, Kerala School, and Brāhmasphuṭasiddhānta),[12][13] Greek mathematics (around 240 BC, e.g. sieve of Eratosthenes and Euclidean algorithm),[14] and Arabic mathematics (9th century, e.g. cryptographic algorithms for code-breaking based on frequency analysis).[15]
+
+Al-khwarizmi and the term algorithm
+Around 825, Muhammad ibn Musa al-Khwarizmi wrote kitāb al-ḥisāb al-hindī ("Book of Indian computation") and kitab al-jam' wa'l-tafriq al-ḥisāb al-hindī ("Addition and subtraction in Indian arithmetic"). Both of these texts are lost in the original Arabic at this time. (However, his other book on algebra remains.)[16]
+
+In the early 12th century, Latin translations of said al-Khwarizmi texts involving the Hindu–Arabic numeral system and arithmetic appeared: Liber Alghoarismi de practica arismetrice (attributed to John of Seville) and Liber Algorismi de numero Indorum (attributed to Adelard of Bath).[17] Hereby, alghoarismi or algorismi is the Latinization of Al-Khwarizmi's name; the text starts with the phrase Dixit Algorismi ("Thus spoke Al-Khwarizmi").[18]
+
+In 1240, Alexander of Villedieu writes a Latin text titled Carmen de Algorismo. It begins with:
+
+Haec algorismus ars praesens dicitur, in qua / Talibus Indorum fruimur bis quinque figuris.
+
+which translates to:
+
+Algorism is the art by which at present we use those Indian figures, which number two times five.
+
+The poem is a few hundred lines long and summarizes the art of calculating with the new styled Indian dice (Tali Indorum), or Hindu numerals.[19]
+
+English evolution of the word
+Around 1230, the English word algorism is attested and then by Chaucer in 1391. English adopted the French term.[20][21]
+
+In the 15th century, under the influence of the Greek word ἀριθμός (arithmos, "number"; cf. "arithmetic"), the Latin word was altered to algorithmus.
+
+In 1656, in the English dictionary Glossographia, it says:[22]
+
+Algorism ([Latin] algorismus) the Art or use of Cyphers, or of numbering by Cyphers; skill in accounting.
+
+Augrime ([Latin] algorithmus) skil in accounting or numbring.
+
+In 1658, in the first edition of The New World of English Words, it says:[23]
+
+Algorithme, (a word compounded of Arabick and Spanish,) the art of reckoning by Cyphers.
+
+In 1706, in the sixth edition of The New World of English Words, it says:[24]
+
+Algorithm, the Art of computing or reckoning by numbers, which contains the five principle Rules of Arithmetick, viz. Numeration, Addition, Subtraction, Multiplication and Division; to which may be added Extraction of Roots: It is also call'd Logistica Numeralis.
+
+Algorism, the practical Operation in the several Parts of Specious Arithmetick or Algebra; sometimes it is taken for the Practice of Common Arithmetick by the ten Numeral Figures.
+
+In 1751, in the Young Algebraist's Companion, Daniel Fenning contrasts the terms algorism and algorithm as follows:[25]
+
+Algorithm signifies the first Principles, and Algorism the practical Part, or knowing how to put the Algorithm in Practice.
+
+Since at least 1811, the term algorithm is attested to mean a "step-by-step procedure" in English.[26][27]
+
+In 1842, in the Dictionary of Science, Literature and Art, it says:
+
+ALGORITHM, signifies the art of computing in reference to some particular subject, or in some particular way; as the algorithm of numbers; the algorithm of the differential calculus.[28]
+
+Machine usage
+In 1928, a partial formalization of the modern concept of algorithm began with attempts to solve the Entscheidungsproblem (decision problem) posed by David Hilbert. Later formalizations were framed as attempts to define "effective calculability"[29] or "effective method".[30] Those formalizations included the Gödel–Herbrand–Kleene recursive functions of 1930, 1934 and 1935, Alonzo Church's lambda calculus of 1936, Emil Post's Formulation 1 of 1936, and Alan Turing's Turing machines of 1936–37 and 1939.
