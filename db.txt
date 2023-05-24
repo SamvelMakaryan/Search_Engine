@@ -6,6 +6,7 @@ addition :2
 adelard :2
 adopted :2
 advanced :1
+ahind :2
 alan :1,2
 alexander :2
 algebra :2
@@ -13,11 +14,8 @@ algebraists :2
 alghoarismi :2
 algorism :2
 algorisms :2
-algorismus :2
 algorithm :1,2
 algorithms :1,2
-algorithmus :2
-alhind :2
 alist :2
 aljam :2
 alkhwarizmi :2
@@ -49,7 +47,7 @@ at :1,2
 attempts :2
 attested :2
 attributed :2
-augrime :2
+augrim :2
 automated :1
 automation :1
 babylonian :2
@@ -202,7 +200,6 @@ literature :2
 logistics :2
 long :2
 lost :2
-lrm :1
 machine :2
 machines :1,2
 mathematical :2
@@ -226,9 +223,8 @@ not :1
 number :1,2
 numbering :2
 numbers :2
-numbring :2
+numbing :2
 numeral :2
-numeralis :2
 numerals :2
 numeration :2
 numero :2
@@ -282,6 +278,7 @@ remains :2
 result :1
 results :1
 rigorous :1
+rm :1
 roots :2
 routes :1
 rules :2
@@ -293,7 +290,7 @@ search :1
 sequence :1
 several :2
 seville :2
-shulba :2
+shuba :2
 sieve :2
 signifies :2
 since :2
@@ -362,9 +359,9 @@ used :1
 using :1
 valid :1
 various :1
-velo :1
 villedieu :2
 viz :2
+vs :1
 waltafriq :2
 was :1,2
 way :2

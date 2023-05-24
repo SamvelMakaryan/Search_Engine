@@ -108,7 +108,13 @@ private:
             }   
             oth_normal.insert(oth_normal.begin() + index, tmp);
             if (oth_normal == normal) {
-                normal_word = normal;
+                oth_normal.erase(oth_normal.begin() + index);
+                if (oth_normal == cur) {
+                    normal_word = oth_normal;
+                }
+                else {
+                    normal_word = normal;
+                }
             }
         }
         m_word = normal_word;

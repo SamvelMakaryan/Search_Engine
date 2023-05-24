@@ -45,14 +45,6 @@ public:
     int size() const {
         return m_words.size();
     }
-    // void push_back(const Word& word) {
-    //     m_words.push_back(word);
-    // }
-    // Word pop_back() {
-    //     Word tmp(m_words.back());
-    //     m_words.pop_back();
-    //     return tmp;
-    // }
 private:
     std::vector<Word> m_words;
     std::fstream f;

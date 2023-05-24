@@ -12,21 +12,21 @@ int main() {
     Text file2("2.txt");
     std::fstream new_file("db.txt", std::ios::out);
     std::string tmp;
-    std::set<Word> words;
+    std::set<std::string> words;
     for (int i = 0; i < file1.size(); ++i) {
-        words.insert(file1.getWord(i));
+        words.insert(file1.getWord(i).getWord());
     }
     for (int i = 0; i < file2.size(); ++i) {
-        words.insert(file2.getWord(i));
+        words.insert(file2.getWord(i).getWord());
     }
     for (auto i = words.begin(); i != words.end(); ++i) {
-        std::string current = (*i).getWord();
-        bool contains1 = (file1.find((*i).getWord()) != -1);
+        std::string current = (*i);
+        bool contains1 = (file1.find((*i)) != -1);
         current += " :";
         if (contains1) {
             current += "1";
         }
-        bool contains2 = (file2.find((*i).getWord()) != -1);
+        bool contains2 = (file2.find((*i)) != -1);
         if (contains1 && contains2) {
             current += ",";
         }
@@ -34,6 +34,6 @@ int main() {
             current += "2";
         }
         new_file << current << std::endl;
-   }
+    }
     new_file.close();
 }
