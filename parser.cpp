@@ -9,6 +9,7 @@
 
 int main() {
     Text file1("1.txt");
+    file1.print();
     Text file2("2.txt");
     std::fstream new_file("db.txt", std::ios::out);
     std::string tmp;

@@ -1,12 +1,13 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include "word.hpp"
 
 int main() {
     std::fstream f("db.txt", std::ios::in);
-    std::string word;
+    std::string cur;
     std::cout << "Input the word you want to search\n";
-    std::cin >> word;
+    Word word(cur);
     std::string line;
     std::string filenames;
     bool found = false; 
@@ -14,7 +15,7 @@ int main() {
         std::stringstream stream(line);
         std::string tmp;
         stream >> tmp;
-        if (tmp == word) {
+        if (tmp == word.getWord()) {
             stream >> tmp;
             int i = 1;
             while (tmp[i]) {

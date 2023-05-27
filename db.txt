@@ -13,11 +13,12 @@ algebra :2
 algebraists :2
 alghoarismi :2
 algorism :2
+algorismic :2
 algorisms :2
 algorithm :1,2
 algorithms :1,2
-alist :2
-aljam :2
+alisb :2
+aljama :2
 alkhwarizmi :2
 alkhwarizmis :2
 alonzo :2
@@ -33,11 +34,9 @@ antiquity :2
 appeared :2
 approach :1
 arabic :2
-arabica :2
 are :1,2
 arismetrice :2
 arithmetic :2
-arithmetics :2
 arithmos :2
 around :2
 ars :2
@@ -73,7 +72,7 @@ century :2
 cf :2
 characteristics :1
 chaucer :2
-churchy :2
+churches :2
 class :1
 code :1
 codebreaking :2
@@ -184,7 +183,6 @@ it :2
 john :2
 kerana :2
 kitab :2
-kits :2
 knowing :2
 known :1
 lambda :2
@@ -197,7 +195,7 @@ liber :2
 lines :2
 listen :1
 literature :2
-logistics :2
+logistical :2
 long :2
 lost :2
 machine :2
@@ -252,7 +250,6 @@ posts :2
 practical :2
 practice :2
 practiced :1
-practico :2
 praesens :2
 present :2
 principle :2

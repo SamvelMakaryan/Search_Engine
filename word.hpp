@@ -55,67 +55,35 @@ private:
         std::string cur;
         while (std::getline(f, cur)) {
             cur.pop_back();
-            if (cur == m_word) {
-                return;
-            }
             int size1 = cur.size();
             int size2 = m_word.size();
-            int missed = 0;
-            if (size1 == size2) {
-                for (int i = 0; i < size1; ++i) {
-                    if (cur[i] != m_word[i]) {
-                        if (missed > 1) {
-                            break;
-                        }
-                        ++missed;
+            int max = size1 > size2 ? size1 : size2;
+            int min = size1 > size2 ? size2 : size1;
+            if (max - min > 1) {
+                continue;
+            }
+            int count = 0;
+
+            std::string max_norm = size1 > size2 ? cur : m_word;
+            std::string min_norm = size1 > size2 ? m_word : cur;
+            for (int i = 0, j = 0; i < max && j < min && count < 2; ++i, ++j) {
+                if ((max_norm[i] ^ min_norm[j] ) != 0) {
+                    ++count;
+                    if (max != min) {
+                    --j;
                     }
                 }
-                if (missed <= 1) {
-                    normal_word = cur;
-                }
+            }
+            if ((max_norm[max - 1] ^ min_norm[min - 1]) != 0 && count < 2) {
+                ++count;
+            }
+            if (count == 0) {
+                return;
+            }
+            if (count > 1) {
                 continue;
             }
-            int min;
-            int max;
-            if (size1 > size2) {
-                min = size2;
-                max = size1;
-            }
-            else {
-                min = size1;
-                max = size2;
-            }
-            if (max - min != 1) {
-                continue;
-            }
-            char tmp = 0;
-            for (int i = 0; i < min; ++i) {
-                tmp ^= cur[i];
-                tmp ^= m_word[i]; 
-            }
-            tmp ^= max == size1 ? cur.back() : m_word.back(); 
-            std::string normal = max == size1 ? cur : m_word;
-            std::string oth_normal = max == size1 ? m_word : cur;
-            int index = -1;
-            for (int i = 0; i < normal.size(); ++i) {
-                if (tmp == normal[i]) {
-                    index = i;
-                    break;
-                }
-            }
-            if (index == -1) {
-                continue;
-            }   
-            oth_normal.insert(oth_normal.begin() + index, tmp);
-            if (oth_normal == normal) {
-                oth_normal.erase(oth_normal.begin() + index);
-                if (oth_normal == cur) {
-                    normal_word = oth_normal;
-                }
-                else {
-                    normal_word = normal;
-                }
-            }
+            normal_word = cur;
         }
         m_word = normal_word;
     }
